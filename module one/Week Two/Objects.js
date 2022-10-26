@@ -5,6 +5,30 @@
 // house.window=30
 // console.log(house)
 
+// var school = {
+//   name: "International School of Denver",
+//   capacity: 250,
+//   languageImmersion: true,
+//   currentStudents: 75,
+// };
+// school.address = "7701 E 1st Pl, Denver, CO 80230";
+// console.log(school)
+
+/*Declare a new variable called myInfo that stores an object literal
+ that represents you! It should have all of the following keys: name, 
+ age, alive, and homeTown. Give each of those keys an appropriate value.*/
+
+//  var myInfo={
+//   name: "Tamiru",
+//   age: 31,
+//   alive: "True",
+//   homeTown:"Gembo",
+//  }
+//  myInfo.currentLocation="324 Village Walk Dr, Holly Springs, NC 27540 "
+//  myInfo.age=25
+//  console.log(myInfo)
+ 
+
 // const cohort = {
 //     id: 'SEIR Flex Madeline',
 //     students: ['Diana', 'Julio', 'Cory'],
@@ -101,32 +125,46 @@ that will log the speed, color, owner, and year of the vehicle.*/
 The class should have at least 4 properties (for example "age"). 
 One property should be a function that will log "time to go to work!". 
 One property should be a list of coworkers.*/
-class Doctor {
-  constructor (specialization, age,coworkers){
-  this.specialization =specialization;
-  this.age =age;
-  this.coworkers =coworkers;
-  this.timeToWork=()=>{
-   console.log("time to go to work")
-  }
-  }
+// class Doctor {
+//   constructor (specialization, age,coworkers){
+//   this.specialization =specialization;
+//   this.age =age;
+//   this.coworkers =coworkers;
+//   this.timeToWork=()=>{
+//    console.log("time to go to work")
+//   }
+//   }
+// }
+// let Tam = new Doctor("no",34, ["hfs","bvsb"])
+// Tam.timeToWork()
+// console.log(Tam)
+
+
+// /*Prompt 5: create a new class called "User" that will make new objects.
+//  The class should have user information and the ability to login the 
+//  user and logout the user - console.log("you are logged in!");*/
+//  class user{
+//   constructor(age,name,email){
+//     this.age=age
+//     this.name=name
+//     this.accountCreated=new Date()
+//     this.email=email
+//     this.logInUser=()=>console.log("you are login")
+//     this.logOutUser=()=>console.log("you are logout")
+//  }
+//  }
+//  let Tam =new user(19,"tam", "@yahoo",)
+
+function longestWord(string) {
+    var str = string.split(" ");
+    var longest = 0;
+    var word = null;
+    for (var i = 0; i < str.length - 1; i++) {
+        if (longest < str[i].length) {
+            longest = str[i].length;
+            word = str[i];
+        }
+    }
+    return word;
 }
-let Tam = new Doctor("no",34, ["hfs","bvsb"])
-Tam.timeToWork()
-console.log(Tam)
-
-
-/*Prompt 5: create a new class called "User" that will make new objects.
- The class should have user information and the ability to login the 
- user and logout the user - console.log("you are logged in!");*/
- class user{
-  constructor(age,name,email){
-    this.age=age
-    this.name=name
-    this.accountCreated=new Date()
-    this.email=email
-    this.logInUser=()=>console.log("you are login")
-    this.logOutUser=()=>console.log("you are logout")
- }
- }
- let Tam =new user(19,"tam", "@yahoo",)
+console.log(longestWord("The quick brown fox jumped over the lazy dog"))

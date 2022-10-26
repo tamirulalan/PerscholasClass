@@ -1,0 +1,9 @@
+p:hover{
+    color:aqua
+}
+:is p{
+    color:red
+}
+.mo .no:hover{
+        color:brown
+    }

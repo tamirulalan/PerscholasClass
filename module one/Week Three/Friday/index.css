@@ -1,0 +1,35 @@
+body {
+    background-color: #faf2e4;
+    /* margin: 0 15%; */
+    font-family: sans-serif;
+  }
+  .nav-button{
+    padding: 20px;
+    margin-right: 12px;
+    background-color: #83b6d4;
+  }
+  .nav-button:hover {
+    color: rgb(101, 209, 14);
+  }
+  nav{
+    display: flex;
+    justify-content: flex-end;
+  }
+  h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+    
+  }
+  h3 {
+    color: #d1633c;
+    font-size: 1em;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

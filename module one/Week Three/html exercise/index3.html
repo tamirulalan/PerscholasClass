@@ -1,0 +1,129 @@
+<!-- /*
+ How do we assign a value to a variable? assignment operator(=)
+How do we change the value of a variable? reassigning using assignment operator(=) if not const
+How do we assign an existing variable to a new variable? let new one = the old one
+Remind me, what are declare, assign, and define?
+  declare== involves giving it a name and specifying its data type., assign is giving value, define is 
+What is pseudocoding and why should you do it?
+        Pseudocode is an artificial and informal language that helps programmers develop algorithms. Pseudocode is a "text-based" detail (algorithmic) design tool.
+What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+        it depends bit i would say 50% */
+
+    /*    B. Strings
+For all other questions that involve writing code, you can solve them via the following instructions.
+*/
+/*Create a variable called firstVariable*/
+//var firstVariable 
+/*Assign it the value of the string "Hello World"*/
+// var firstVariable ="Hello World"
+// /*Change the value of this variable to some number*/
+// var firstVariable=4
+// /*Store the value of firstVariablein a new variable called secondVariable*/
+// var secondVariable=4
+// /*Change the value of secondVariableto any string.*/
+// var secondVariable="changed"
+// /*What is the value of firstVariable?*/
+// console.log(firstVariable)
+// //Create a variable called yourNameand set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourNameso that it returns a new string with them concatenated.
+// //ex: Hello, my name is Jean Valjean*/
+// var yourName="Tamiru"
+// console.log(`Hello, my name is ${yourName}`)
+/* Booleans
+Using the provided variable definitions, replace the blanks so 
+that all log statements print true in the console. 
+Answers should be all be valid JS syntax and not weird things 
+that don't make sense but happen to print true to the console */
+
+const a = 4;
+const b = 53;
+const c = 57;
+const d = 16;
+const e = 'Kevin';
+
+// console.log(a < b);
+// console.log(c > d);
+// console.log('Name'=='Name');
+// //   // FOR THE NEXT TWO, USE ONLY && OR ||
+// console.log(true ||false);
+// console.log(false && false && false &&false && false || true);
+// console.log(false ==false)
+// console.log(e =='Kevin');
+//console.log(a < (b && c)); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
+//console.log(a*a ==d); // note: the answer is a simple arithmetic equation, not something "weird"
+//console.log(48 == '48');
+
+// D. The farm
+// Declare a variable animal. Set it to be either "cow" or something else
+var animal ="cow"
+// Write code that will print out "mooooo" if the it is equal to cow
+let animalSound =(animal)=>{
+if (animal=='cow'){
+        console.log("mooooo")
+}else {
+        console.log("Hey! You're not a cow.")
+}
+}
+animalSound('sheep')
+// Change your code so that if the variable animalis anything other than a cow, it will print "Hey! You're not a cow."
+// Commit
+
+//E. Driver's Ed
+//Make a variable that holds a person's age; be semantic
+/*Write code that will print out "Here are the keys!", 
+if the age is 16 years or older, or, if the age is younger than 16, 
+a message should print "Sorry, you're too young."*/
+let ageRange=(age)=>{
+         if(age>16){
+                return "Here are the keys!"
+        }else{
+                return "Sorry, you're too young."
+        }
+}
+console.log(ageRange(10))
+
+/*II. Loops
+Remember: USE letwhen you initialize your for loops!
+This is GOOD: for(let i = 0; i < 100; i++)
+This is NO GOOD: for(i = 0; i < 100; i++)*/
+// A. The basics
+// Write a loop that will print out all the numbers from 0 to 10, inclusive
+        // for(let i=0; i<=10; i++){
+        //        console.log(i) 
+        // }
+
+// Write a loop that will print out all the numbers from 10 up to and including 400
+        // for(i=10; i<=400;i++){
+        //         console.log(i)
+        // }
+// Write a loop that will print out every third number starting with 12 and going no higher than 4000
+// for (i=12; i<400; i++){
+//         i+=3
+//         console.log(i)
+// }
+
+//B. Get even
+//Print out the numbers that are within the range of 1 - 100
+// for(i=1; i<=100; i++){
+//         if(i%2==0){
+//         console.log(`${i} is an even number`)
+//        }
+// }
+//Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
+
+/*Give me Five
+For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five
+Example Output:
+I found a 5. High five!
+I found a 10. High five!
+Add to the code from above to print out "I found a number. 
+Three is a crowd" if the number is a multiple of three
+*/
+// for(i=0;i<99;i++){
+//        if(i%5==0 && i%3==0){
+//         console.log(`I found a ${i}. High five! Three is a crowd`)
+//        }else if (i%3==0){
+//         console.log(`I found a ${i}. Three is a crowd`)
+//        }else if (i%5==0){
+//         console.log(`I found a ${i}. High five!`)
+//        }
+// } -->
