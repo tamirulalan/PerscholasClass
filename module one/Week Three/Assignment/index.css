@@ -39,6 +39,11 @@ margin-top: 0px;
 img {
     margin-top: 4px;
 }
+a:link {
+    text-decoration: none;
+    color:#860606 
+  }
+
 p, li, th, td {
     font-family: Helvetica, Arial;
     font-size: 18px;
@@ -49,9 +54,7 @@ p, li, th, td {
     margin: auto;
 }
 
-  
-  
 a:link {
-    /* //color:#AA0000 */
     text-decoration: none;
+    color:#860606 
   }
